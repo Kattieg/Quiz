@@ -92,5 +92,12 @@ void __fastcall TForm1::ConfirmButtonClick(TObject *Sender)
 
 		questions.pop();
 
+		Answer1RadioButton->IsChecked=false;
+		Answer2RadioButton->IsChecked=false;
+		Answer3RadioButton->IsChecked=false;
+	}
+	else{
+		ConfirmButton->Enabled=false;
+		ConfirmButton->Text="The End";
 	}
 }
