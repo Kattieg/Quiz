@@ -90,5 +90,7 @@ void __fastcall TForm1::ConfirmButtonClick(TObject *Sender)
 		Answer2RadioButton->Text= currentQuestion.Answer2;
 		Answer3RadioButton->Text= currentQuestion.Answer3;
 
+		questions.pop();
 
+	}
 }
