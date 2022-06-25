@@ -31,12 +31,14 @@ std::queue<Question> LoadQuestions() {
 	Question q2=Question("What two words every programmer learned to code first?", "je mapelle", "Buenos Dias", "Hello, World", 3);
 	Question q3=Question("Who should we ask for help?", "Family member", "Uncle google ^-^", "student", 2);
 	Question q4=Question("How do programmers enjoy life?", "When they have easy code", "When they see their codes run without error", "When they are on vacation", 2);
+	Question q5=Question("What is the greatest fear of programmers?", "When they dont have time to eat", "When they dont have time to sleep", "When they forgot to save", 3);
 
 	std::queue<Question> questions;
 	questions.push(q1);
 	questions.push(q2);
 	questions.push(q3);
 	questions.push(q4);
+	questions.push(q5);
 
 	return questions;
 }
