@@ -75,3 +75,12 @@ void __fastcall TForm1::Answer3RadioButtonChange(TObject *Sender)
 {
 	selectedAnswer=3;
 }
+
+void __fastcall TForm1::ConfirmButtonClick(TObject *Sender)
+{
+	if(selectedAnswer==currentQuestion.CorrectAnswer) {
+	   points++;
+	   PointsLabel->Text=points;
+
+
+}
