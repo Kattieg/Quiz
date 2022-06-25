@@ -30,11 +30,13 @@ std::queue<Question> LoadQuestions() {
 	Question q1=Question("What does OOP stand for?", "Object-oriented programming", "Oval Objected Pens", "Observe Orientation Programming", 1);
 	Question q2=Question("What two words every programmer learned to code first?", "je mapelle", "Buenos Dias", "Hello, World", 3);
 	Question q3=Question("Who should we ask for help?", "Family member", "Uncle google ^-^", "student", 2);
+	Question q4=Question("How do programmers enjoy life?", "When they have easy code", "When they see their codes run without error", "When they are on vacation", 2);
 
 	std::queue<Question> questions;
 	questions.push(q1);
 	questions.push(q2);
 	questions.push(q3);
+	questions.push(q4);
 
 	return questions;
 }
