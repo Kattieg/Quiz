@@ -27,9 +27,9 @@ public:
 };
 
 std::queue<Question> LoadQuestions() {
-	Question q1=Question("blaablabla", "blabla", "lala", "blahlh", 1);
-	Question q2=Question("je mapelle", "je mapelle", "me var", "mipupu", 3);
-	Question q3=Question("dro rogor gavida", "male", "vigaca wavida", "uecrad", 2);
+	Question q1=Question("What does OOP stand for?", "Object-oriented programming", "Oval Objected Pens", "Observe Orientation Programming", 1);
+	Question q2=Question("What two words every programmer learned to code first?", "je mapelle", "Buenos Dias", "Hello, World", 3);
+	Question q3=Question("Who should we ask for help?", "Family member", "Uncle google ^-^", "student", 2);
 
 	std::queue<Question> questions;
 	questions.push(q1);
