@@ -41,7 +41,9 @@ std::queue<Question> LoadQuestions() {
 
 std::queue<Question> questions;
 Question currentQuestion;
-
+int selectedAnswer;
+int points=0;
+TForm1 *Form1;
 
 __fastcall TForm1::TForm1(TComponent* Owner)
 	: TForm(Owner)
