@@ -38,3 +38,6 @@ std::queue<Question> LoadQuestions() {
 
 	return questions;
 }
+
+std::queue<Question> questions;
+Question currentQuestion;
