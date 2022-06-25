@@ -25,3 +25,16 @@ public:
 
 		}
 };
+
+std::queue<Question> LoadQuestions() {
+	Question q1=Question("blaablabla", "blabla", "lala", "blahlh", 1);
+	Question q2=Question("je mapelle", "je mapelle", "me var", "mipupu", 3);
+	Question q3=Question("dro rogor gavida", "male", "vigaca wavida", "uecrad", 2);
+
+	std::queue<Question> questions;
+	questions.push(q1);
+	questions.push(q2);
+	questions.push(q3);
+
+	return questions;
+}
