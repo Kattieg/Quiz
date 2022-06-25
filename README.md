@@ -81,6 +81,14 @@ void __fastcall TForm1::ConfirmButtonClick(TObject *Sender)
 	if(selectedAnswer==currentQuestion.CorrectAnswer) {
 	   points++;
 	   PointsLabel->Text=points;
+	}
+	if (!questions.empty()) {
+		currentQuestion=questions.front();
+
+		QuestionLabel->Text= currentQuestion.Text;
+		Answer1RadioButton->Text= currentQuestion.Answer1;
+		Answer2RadioButton->Text= currentQuestion.Answer2;
+		Answer3RadioButton->Text= currentQuestion.Answer3;
 
 
 }
